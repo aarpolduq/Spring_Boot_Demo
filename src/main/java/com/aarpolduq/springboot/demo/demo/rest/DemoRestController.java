@@ -12,4 +12,10 @@ public class DemoRestController {
     public String sayHello(){
         return "Hello World!";
     }
+
+    @GetMapping("/workout")
+    public String getDailyWorkout() {
+         return "Run 5km!";
+
+    }
 }
